@@ -20,4 +20,8 @@ function binarySearch(sortedArray, key){
     return -1;
 }
 
+var sortedArray = [1,2,3,4,5,6,7,8,9];
+console.log(binarySearch(sortedArray, 3));
+console.log(binarySearch(sortedArray, 10));
+
 
