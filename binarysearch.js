@@ -1,7 +1,7 @@
 function binarySearch(sortedArray, key){
     let start = 0;
     let end = sortedArray.length - 1;
-
+console.log('This is added by different owner');
     while (start <= end) {
         let middle = Math.floor((start + end) / 2);
 
@@ -23,5 +23,8 @@ function binarySearch(sortedArray, key){
 var sortedArray = [1,2,3,4,5,6,7,8,9];
 console.log(binarySearch(sortedArray, 3));
 console.log(binarySearch(sortedArray, 10));
+console.log(binarySearch(sortedArray, 5));
+console.log(binarySearch(sortedArray, 9));
+
 
 
