@@ -1,6 +1,7 @@
 function binarySearch(sortedArray, key){
     let start = 0;
     let end = sortedArray.length - 1;
+    console.log("I ALSO WANT TO CHANGE FILE");
 
     while (start <= end) {
         let middle = Math.floor((start + end) / 2);
