@@ -1,7 +1,7 @@
 function binarySearch(sortedArray, key){
     let start = 0;
     let end = sortedArray.length - 1;
-    console.log("I ALSO WANT TO CHANGE FILE");
+    //console.log("I ALSO WANT TO CHANGE FILE");
 
     while (start <= end) {
         let middle = Math.floor((start + end) / 2);
@@ -21,8 +21,9 @@ function binarySearch(sortedArray, key){
     return -1;
 }
 
-var sortedArray = [1,2,3,4,5,6,7,8,9];
-console.log(binarySearch(sortedArray, 3));
-console.log(binarySearch(sortedArray, 10));
+//var sortedArray = [1,2,3,4,5,6,7,8,9];
+//console.log(binarySearch(sortedArray, 3));
+//console.log(binarySearch(sortedArray, 10));
 
 
+module.exports = binarySearch
